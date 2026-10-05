@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Telecom_Service</fullName>
+    <active>true</active>
+    <label>Telecom Service</label>
+    <picklistValues>
+        <picklist>Family</picklist>
+        <values>
+            <fullName>Auto Loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Loan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>QuantityUnitOfMeasure</picklist>
+        <values>
+            <fullName>Each</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Category__c</picklist>
+        <values>
+            <fullName>Add-On</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internet Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

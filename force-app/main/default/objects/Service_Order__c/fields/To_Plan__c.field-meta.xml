@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>To_Plan__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>To Plan</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Product2.Service_Category__c</field>
+            <operation>equals</operation>
+            <value>Internet Plan</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Product2</referenceTo>
+    <relationshipLabel>Service orders (To Plan)</relationshipLabel>
+    <relationshipName>Service_orders1</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
