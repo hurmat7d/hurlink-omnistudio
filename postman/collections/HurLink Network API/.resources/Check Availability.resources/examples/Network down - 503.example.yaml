@@ -1,0 +1,22 @@
+$kind: http-example
+request:
+  url: "{{baseUrl}}/availability?postcode=000000"
+  method: GET
+  queryParams:
+    postcode: "000000"
+response:
+  statusCode: 503
+  statusText: Service Unavailable
+  headers:
+    content-type: application/json
+    date: Wed, 14 Oct 2026 13:51:49 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+    transfer-encoding: chunked
+  body:
+    type: json
+    content: |-
+      {
+        "error": "Network system unavailable"
+      }
+order: 3000

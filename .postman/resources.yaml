@@ -1,0 +1,9 @@
+workspace:
+  id: 9ad8e1cf-290b-40a6-8309-3aeabcf8964e
+cloudResources:
+  mocks:
+    ../postman/mocks/new-mock/config.yaml: 01a13a64-2deb-721a-b152-787f67354e3c
+  globals:
+    ../postman/globals/workspace.globals.yaml: 43125da2-5d61-44bf-811d-888031257371
+  collections:
+    ../postman/collections/HurLink Network API: 58952008-589a3b1e-fea4-46c9-a777-d64f68ae07c7

@@ -1,0 +1,7 @@
+$kind: http-request
+url: "{{baseUrl}}/availability?postcode=122001"
+method: GET
+queryParams:
+  postcode: "122001"
+examples: .resources/Check Availability.resources/examples
+order: 1000

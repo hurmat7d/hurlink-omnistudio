@@ -1,0 +1,30 @@
+$kind: http-example
+request:
+  url: "{{baseUrl}}/availability?postcode=122002"
+  method: GET
+  queryParams:
+    postcode: "122002"
+response:
+  statusCode: 200
+  statusText: OK
+  headers:
+    content-type: application/json
+    date: Wed, 14 Oct 2026 13:50:44 GMT
+    connection: keep-alive
+    keep-alive: timeout=5
+    transfer-encoding: chunked
+  body:
+    type: json
+    content: |-
+      {
+        "postcode": "122002",
+        "network_type": "FTTH",
+        "max_speed_mbps": 2000,
+        "available_speeds": [
+          300,
+          1000,
+          2000
+        ],
+        "install_lead_time_days": 5
+      }
+order: 1000
