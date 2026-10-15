@@ -1,0 +1,58 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "OmniProcess",
+          "url": "/services/data/v68.0/sobjects/OmniProcess/0jNdN000001CbJNUA0"
+        },
+        "Id": "0jNdN000001CbJNUA0",
+        "OwnerId": "005dN00000E89mvQAB",
+        "IsDeleted": false,
+        "Name": "HLCheckAvailability",
+        "CreatedDate": "2026-10-14T14:21:40.000+0000",
+        "CreatedById": "005dN00000E89mvQAB",
+        "LastModifiedDate": "2026-10-15T13:08:05.000+0000",
+        "LastModifiedById": "005dN00000E89mvQAB",
+        "SystemModstamp": "2026-10-15T13:08:05.000+0000",
+        "LastViewedDate": "2026-10-15T13:08:05.000+0000",
+        "LastReferencedDate": "2026-10-15T13:08:05.000+0000",
+        "Description": "Checks which internet speeds are available at the customer's service address",
+        "RequiredPermission": null,
+        "ElementTypeComponentMapping": "{\"ElementTypeToHTMLTemplateList\":[]}",
+        "CustomJavaScript": "{\"AccountId\":\"001dN0000141tdzQAA\"}",
+        "IsActive": true,
+        "IsMetadataCacheDisabled": false,
+        "ResponseCacheType": null,
+        "IsIntegrationProcedure": true,
+        "IsOmniScriptEmbeddable": false,
+        "IsWebCompEnabled": false,
+        "Language": "English",
+        "OmniProcessKey": "HurLink_CheckAvailability",
+        "PropertySetConfig": "{\"linkToExternalObject\":\"\",\"trackingCustomData\":{},\"includeAllActionsInResponse\":false,\"columnsPropertyMap\":[],\"relationshipFieldsMap\":[],\"labelSingular\":\"\",\"labelPlural\":\"\",\"description\":\"\",\"nameColumn\":\"\",\"rollbackOnError\":false,\"chainableQueriesLimit\":50,\"chainableDMLStatementsLimit\":null,\"chainableCpuLimit\":2000,\"chainableHeapSizeLimit\":null,\"chainableDMLRowsLimit\":null,\"chainableQueryRowsLimit\":null,\"chainableSoslQueriesLimit\":null,\"additionalChainableResponse\":{},\"chainableActualTimeLimit\":null,\"transientValues\":{\"activateOrDeactivateConsent\":false}}",
+        "SubType": "CheckAvailability",
+        "CustomHtmlTemplates": null,
+        "Type": "HurLink",
+        "VersionNumber": 1,
+        "LastPreviewPage": null,
+        "WebComponentKey": null,
+        "IsTestProcedure": false,
+        "OmniProcessType": "Integration Procedure",
+        "DesignerCustomizationType": null,
+        "UniqueName": null,
+        "Namespace": null,
+        "OverrideKey": null,
+        "DiscoveryFrameworkUsageType": null,
+        "IsManagedUsingStdDesigner": true,
+        "IsIntegProcdSignatureAvl": false,
+        "IntegrationProcedureInput": null,
+        "IntegrationProcedureOutput": null,
+        "AiGeneratedDescription": null,
+        "EmbeddingPayload": null
+      }
+    ],
+    "totalSize": 1,
+    "done": true
+  }
+}
