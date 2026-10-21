@@ -117,30 +117,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>configuration</name>
-                    <value>DEPLOYMENT</value>
-                </componentInstanceProperties>
-                <componentName>industries_service_excellence:actionLauncher</componentName>
-                <identifier>runtime_service_excellence_actionLauncher</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>hideNewActionPlanQuickAction</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>useCmpForLifeEventTimeline</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentName>builder_industries_insurance:lifeEvents</componentName>
-                <identifier>builder_industries_insurance_lifeEvents</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
                     <name>label</name>
                     <value>Tabs</value>
                 </componentInstanceProperties>
@@ -150,6 +126,16 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:tabset</componentName>
                 <identifier>flexipage_main_tabset</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>flexcardName</name>
+                    <value>HLCustomerPlanCard</value>
+                </componentInstanceProperties>
+                <componentName>runtime_omnistudio:flexcard</componentName>
+                <identifier>runtime_omnistudio_flexcard</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>

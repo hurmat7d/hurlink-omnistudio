@@ -1,0 +1,44 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "OmniUiCard",
+          "url": "/services/data/v68.0/sobjects/OmniUiCard/0kodN000000iOcvQAE"
+        },
+        "Id": "0kodN000000iOcvQAE",
+        "OwnerId": "005dN00000E89mvQAB",
+        "IsDeleted": false,
+        "Name": "HLCustomerPlanCard",
+        "CreatedDate": "2026-10-21T18:36:30.000+0000",
+        "CreatedById": "005dN00000E89mvQAB",
+        "LastModifiedDate": "2026-10-21T19:25:24.000+0000",
+        "LastModifiedById": "005dN00000E89mvQAB",
+        "SystemModstamp": "2026-10-21T19:25:24.000+0000",
+        "LastViewedDate": "2026-10-21T19:31:34.000+0000",
+        "LastReferencedDate": "2026-10-21T19:31:34.000+0000",
+        "IsActive": true,
+        "AuthorName": "Developer",
+        "ClonedFromOmniUiCardKey": null,
+        "DataSourceConfig": "{\"dataSource\":{\"type\":\"DataRaptor\",\"value\":{\"dsDelay\":\"\",\"bundle\":\"HLExtractCustomerDetails\",\"bundleType\":\"\",\"inputMap\":{\"AccountId\":\"{recordId}\"},\"jsonMap\":\"{\\\"recordId\\\":\\\"{recordId}\\\"}\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[{\"name\":\"recordId\",\"val\":\"001dN000013Oi2UQAS\",\"id\":1}]}}",
+        "Description": "Shows the customer's current plan with an Upgrade Plan but",
+        "OmniUiCardKey": "HLCustomerPlanCard/Developer/1.0",
+        "PropertySetConfig": "{\"states\":[{\"fields\":[],\"conditions\":{\"id\":\"state-condition-object\",\"isParent\":true,\"group\":[]},\"definedActions\":{\"actions\":[]},\"name\":\"Active\",\"isSmartAction\":false,\"smartAction\":{},\"styleObject\":{\"padding\":[{\"type\":\"around\",\"size\":\"x-small\"}],\"margin\":[{\"type\":\"bottom\",\"size\":\"x-small\"}],\"container\":{\"class\":\"slds-card\"},\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"sizeClass\":\"slds-size_12-of-12\",\"class\":\"slds-card slds-p-around_x-small slds-m-bottom_x-small\"},\"components\":{\"layer-0\":{\"children\":[{\"name\":\"CurrentPlanName\",\"element\":\"outputField\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"placeholder\":\"output\",\"record\":\"{record}\",\"fieldName\":\"CurrentPlanName\",\"label\":\"CurrentPlanName\",\"card\":\"{card}\",\"type\":\"text\"},\"type\":\"field\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12\"},\"datasourceKey\":\"state0element0\",\"uKey\":\"1792608627791-730\",\"elementLabel\":\"CurrentPlanName-0\"},{\"name\":\"CurrentSpeed\",\"element\":\"outputField\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"placeholder\":\"output\",\"record\":\"{record}\",\"fieldName\":\"CurrentSpeed\",\"label\":\"CurrentSpeed\",\"card\":\"{card}\",\"type\":\"number\"},\"type\":\"field\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12\"},\"datasourceKey\":\"state0element1\",\"uKey\":\"1792608627791-807\",\"elementLabel\":\"CurrentSpeed-1\"},{\"name\":\"ServiceStreet\",\"element\":\"outputField\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"placeholder\":\"output\",\"record\":\"{record}\",\"fieldName\":\"ServiceStreet\",\"label\":\"ServiceStreet\",\"card\":\"{card}\",\"type\":\"text\"},\"type\":\"field\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12\"},\"datasourceKey\":\"state0element2\",\"uKey\":\"1792608627791-824\",\"elementLabel\":\"ServiceStreet-2\"},{\"name\":\"Action\",\"element\":\"action\",\"size\":{\"isResponsive\":false,\"default\":\"12\"},\"stateIndex\":0,\"class\":\"slds-col \",\"property\":{\"label\":\"Upgrade Plan\",\"iconName\":\"utility:arrowup\",\"record\":\"{record}\",\"card\":\"{card}\",\"stateObj\":\"{record}\",\"actionList\":[{\"stateAction\":{\"id\":\"flex-action-1792609382859\",\"type\":\"OmniScript\",\"openUrlIn\":\"Current Window\",\"layoutType\":\"lightning\",\"omniType\":{\"Name\":\"HurLink/UpgradePlan/English\",\"Id\":\"0jNdN000001Cn2nUAC\",\"Namespace\":null,\"FullyQualifiedName\":\"null/HurLink/UpgradePlan/English\"},\"tabLabel\":\"Upgrade Plan\"},\"key\":\"1792608655698-7ywftkdp2\",\"label\":\"Upgrade Plan\",\"draggable\":true,\"isOpen\":true,\"actionIndex\":0,\"isTrackingDisabled\":true,\"contextId\":\"\\\\{recordId}\"}],\"showSpinner\":\"false\",\"displayAsButton\":true,\"buttonVariant\":\"brand\",\"ariaLabel\":\"Upgrade this customer's plan\",\"flyoutDetails\":{}},\"type\":\"element\",\"styleObject\":{\"sizeClass\":\"slds-size_12-of-12\"},\"datasourceKey\":\"state0element3\",\"uKey\":\"1792608627791-252\",\"elementLabel\":\"UpgradePlanButton\",\"userUpdatedElementLabel\":true}]}},\"childCards\":[],\"actions\":[],\"omniscripts\":[],\"documents\":[]}],\"dataSource\":{\"type\":\"DataRaptor\",\"value\":{\"dsDelay\":\"\",\"bundle\":\"HLExtractCustomerDetails\",\"bundleType\":\"\",\"inputMap\":{\"AccountId\":\"{recordId}\"},\"jsonMap\":\"{\\\"recordId\\\":\\\"{recordId}\\\"}\"},\"orderBy\":{\"name\":\"\",\"isReverse\":\"\"},\"contextVariables\":[{\"name\":\"recordId\",\"val\":\"001dN000013Oi2UQAS\",\"id\":1}]},\"title\":\"HurLink Customer Plan Card\",\"enableLwc\":true,\"isFlex\":true,\"theme\":\"slds\",\"selectableMode\":\"Multi\",\"accessibilityToggle\":false,\"offlineEnabled\":false,\"xmlObject\":{\"masterLabel\":\"HurLink Customer Plan Card\",\"description\":\"Customer's current plan with an Upgrade Plan button\",\"apiVersion\":61,\"targetConfigs\":\"CiAgICA8dGFyZ2V0Q29uZmlnIHhtbG5zPSJodHRwOi8vc29hcC5zZm9yY2UuY29tLzIwMDYvMDQvbWV0YWRhdGEiIHRhcmdldHM9ImxpZ2h0bmluZ19fUmVjb3JkUGFnZSI+CiAgICAgIDxwcm9wZXJ0eSBuYW1lPSJkZWJ1ZyIgdHlwZT0iQm9vbGVhbiIvPgogICAgPC90YXJnZXRDb25maWc+CiAg\",\"targets\":{\"target\":[\"lightning__RecordPage\"]},\"isExplicitImport\":false},\"xmlJson\":[{\"@attributes\":{\"xmlns\":\"http://soap.sforce.com/2006/04/metadata\",\"targets\":\"lightning__RecordPage\"},\"property\":[{\"@attributes\":{\"name\":\"debug\",\"type\":\"Boolean\"}}]}]}",
+        "SampleDataSourceResponse": "[{\"CurrentPlanName\":\"HurLink Fiber 300\",\"CustomerName\":\"Arjun Mehta\",\"CustomerId\":\"001dN000013Oi2UQAS\",\"Phone\":\"9876543210\",\"CurrentPlanId\":\"01tdN00000A5jhtQAB\",\"CurrentPlanCode\":\"HL-FIB-300\",\"ServicePostcode\":\"122001\",\"ServiceCity\":\"Gurugram\",\"ServiceStreet\":\"12 Park Street\",\"CurrentSpeed\":300}]",
+        "StylingConfiguration": "{}",
+        "IsTrackingEnabled": false,
+        "OmniUiCardType": "Parent",
+        "VersionNumber": 1,
+        "UniqueName": null,
+        "Namespace": null,
+        "OverrideKey": null,
+        "IsManagedUsingStdDesigner": true,
+        "AiGeneratedDescription": null,
+        "EmbeddingPayload": null
+      }
+    ],
+    "totalSize": 1,
+    "done": true
+  }
+}
