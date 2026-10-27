@@ -190,6 +190,14 @@ Standard Salesforce metadata (objects, layouts, Apex) is retrieved with the Sale
 Salesforce OmniStudio (OmniScripts, Integration Procedures, Data Mappers, FlexCards) · Apex · Named Credentials · REST · Postman (mock server, collections) · Salesforce CLI · Git and GitHub · VS Code
 
 ---
+## What I learned
+
+- **How the pieces connect behind the screen.** What surprised me most was how seamlessly FlexCards, OmniScripts, Integration Procedures, Data Mappers and Apex pass data to each other, each one handing its output to the next through a shared JSON structure.
+- **Small details break things.** A Data Mapper step returned nothing because one path said `account` and another said `Account`. Paths are case-sensitive, and checking the debug output step by step is how I found it.
+- **Choosing the right tool matters.** My first approach used an Apex class to supply the plan options, but debug logs showed it never received the OmniScript's data. A Lookup element could read the customer's current speed and address maximum directly, so it gave true filtering with no code.
+- **Test data belongs in a sandbox.** Testing created several Service Orders on the same customer, which would confuse a real agent. On a real project, this testing happens in a sandbox, so production only holds genuine transactions.
+
+---
 
 ## Author
 
